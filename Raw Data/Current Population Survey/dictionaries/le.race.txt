@@ -1,0 +1,5 @@
+race_code	race_text
+00	All Races
+01	White
+03	Black or African American
+04	Asian

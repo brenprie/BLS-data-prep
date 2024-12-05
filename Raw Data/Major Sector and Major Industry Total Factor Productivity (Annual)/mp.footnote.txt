@@ -1,0 +1,9 @@
+footnote_code	footnote_text
+00	Tornqvist (rental price wts.) aggregate K inputs
+01	Tornqvist (cost share wts.) aggregate K and L
+02	Real Value-Added Output divided by combined inputs
+03	Tornqvist aggregate of hours by age, education, & gender
+04	Sectoral output per unit of combined K, L, E, M, S
+06	Combined K,  L, E, M, S, cost share weights
+08	Output per hour worked
+09	Ratio of Labor Input to Hours

@@ -1,0 +1,7 @@
+pcts_code	pcts_text
+00	N/A
+05	Percent distribution of hourly paid workers
+22	Percent of hourly paid workers
+49	EARNINGS OF FOREIGN BORN AS PERCENT OF NATIVE BORN
+50	Earnings of women as a percent of men
+99	100% place holder

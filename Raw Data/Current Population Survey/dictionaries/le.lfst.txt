@@ -1,0 +1,4 @@
+lfst_code	lfst_text
+20	Employed
+25	Employed full time
+26	Employed part time

@@ -1,0 +1,7 @@
+class_code	class_text	display_level	selectable	sort_sequence
+03	Government wage and salary workers	0	T	1
+04	Federal wage and salary workers	0	T	2
+05	State wage and salary workers	0	T	3
+06	Local wage and salary workers	0	T	4
+16	Wage and salary workers, excluding incorporated self employed	0	T	5
+17	Private wage and salary workers, excluding incorporated self employed	0	T	6

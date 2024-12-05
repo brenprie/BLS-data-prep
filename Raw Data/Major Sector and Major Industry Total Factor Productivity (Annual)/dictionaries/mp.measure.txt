@@ -1,0 +1,42 @@
+measure_code	measure_text	display_level	selectable	sort_sequence
+01	Total factor productivity	0	T	1
+02	Real value-added output	0	T	3
+03	Combined inputs	0	T	5
+04	Capital input	0	T	7
+05	Labor input	0	T	9
+06	Labor productivity	0	T	11
+07	Capital productivity	0	T	13
+08	Capital intensity	0	T	51
+09	Labor composition	0	T	17
+10	Value-added output, billions of current dollars	0	T	19
+11	Capital costs, billions of current dollars	0	T	20
+12	Labor compensation, billions of current dollars	0	T	21
+13	Capital share	0	T	24
+14	Labor share	0	T	25
+15	Contribution of capital intensity to labor productivity	0	T	26
+16	Contribution of information processing equipment (IPE) intensity to labor productivity	0	T	28
+17	Contribution of capital input excluding IPP and IPE intensity to labor productivity	0	T	30
+18	Contribution of labor composition to labor productivity	0	T	32
+19	Contribution of research and development (R&D) intensity to labor productivity	0	T	34
+20	Contribution of intellectual property products (IPP) excluding R&D intensity to labor productivity	0	T	36
+21	Unit labor costs	0	T	19
+22	Unit capital costs	0	T	21
+51	Real sectoral output	0	T	33
+55	Energy input	0	T	41
+56	Materials input	0	T	43
+57	Services Input	0	T	45
+61	Sectoral output, billions of current dollars	0	T	53
+62	Capital costs, billions of current dollars	0	T	54
+63	Labor costs, billions of current dollars	0	T	55
+64	Energy costs, billions of current dollars	0	T	56
+65	Materials costs, billions of current dollars	0	T	57
+66	Services costs, billions of current dollars	0	T	58
+67	Capital share	0	T	59
+68	Labor share	0	T	60
+69	Energy share	0	T	61
+70	Materials share	0	T	62
+71	Services share	0	T	63
+74	Contribution of energy intensity to labor productivity	0	T	67
+76	Contribution of materials intensity to labor productivity	0	T	71
+77	Contribution of services intensity to labor productivity	0	T	73
+78	Contribution of intermediate inputs intensity to labor productivity	0	T	75

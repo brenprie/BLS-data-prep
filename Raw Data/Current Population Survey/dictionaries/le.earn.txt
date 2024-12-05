@@ -1,0 +1,15 @@
+earn_code	earn_text
+00	Person counts (number in thousands)
+01	Median usual weekly earnings - in current dollars (second quartile)
+02	Median usual weekly earnings - in constant (1982-84) dollars
+03	Usual weekly earnings - in current dollars (first decile)
+04	Usual weekly earnings - in current dollars (first quartile)
+05	Usual weekly earnings - in current dollars (third quartile)
+06	Usual weekly earnings - in current dollars (ninth decile)
+07	Workers paid hourly rates
+08	Below prevailing federal minimum wage
+09	At prevailing federal minimum wage
+10	Total at or below prevailing federal minimum wage
+11	Median Hourly Earnings - in current dollars
+13	Median usual weekly earnings - in constant (base current year) dollars
+14	Median hourly earnings - in constant (base current year) dollars
