@@ -73,6 +73,7 @@ The CPS provides a wealth of information on the nation’s labor force. Key CPS 
 Readme, input (txt), script (ipynb), and output (csv) files: [Link](https://github.com/brenprie/BLS-data-prep/tree/main/Raw%20Data/Current%20Population%20Survey).
 
 Script:
+
 ![Screenshot 2024-12-09 at 05 07 35](https://github.com/user-attachments/assets/c4072c56-942f-4b7c-82ab-55e4a1155b90)
 
 
