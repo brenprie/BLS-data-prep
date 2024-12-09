@@ -34,15 +34,20 @@ The Office of Productivity and Technology (OPT) measures how efficiently the U.S
 
 #### Major Sector Quarterly Labor Productivity and Costs
 1. Download relevant flat files (all series) from [https://download.bls.gov/pub/time.series/pr/](https://download.bls.gov/pub/time.series/pr/).
-2. With assistance of ChatGPT, create and run script to read and merge series and data files and save output to single csv file. Series titles are not available in these files, so I obtain natural-English series identifiers by employing dictionaries that translate elements of the seriesid codes. In this implementation I chose to define the dictionaries in-script; in implementations below I have script read external dictionary files, which is a more efficient, robust, and flexible solution (learning curve).  
+2. Create and run script to read and merge series and data files (after removing whitespace from headers and seriesid's columns) and save output to a single csv file. Series titles are not available in this set of series and data files; I obtained natural-English series identifiers by employing dictionaries that translate elements of the seriesid codes. In this implementation I chose to define the dictionaries in-script; in implementations below I have scripts read external dictionary files, which is a more efficient, robust, and flexible solution.  
 
 Readme, input (txt), script (ipynb), and output (csv) files: [Link](https://github.com/brenprie/BLS-data-prep/tree/main/Raw%20Data/Major%20Sector%20Quarterly%20Labor%20Productivity%20and%20Costs).
+
+Script:
+![Screenshot 2024-12-09 at 03 31 52](https://github.com/user-attachments/assets/a602c8c0-034b-40d6-8ff1-781a583756bc)
 
 #### Major Sector and Major Industry Total Factor Productivity
 1. Download flat files (all series) from [https://download.bls.gov/pub/time.series/mp/](https://download.bls.gov/pub/time.series/mp/).
 2. With assistance of ChatGPT, create and run script to read and merge series and data files and save output to single csv file. Series titles are available in these files, but rather than split the series titles into elements, I split series_ids into elements and map to natural-English identifiers by reference to external dictionaries.  
 
 Readme, input (txt), script (ipynb), and output (csv) files: [Link](https://github.com/brenprie/BLS-data-prep/tree/main/Raw%20Data/Major%20Sector%20and%20Major%20Industry%20Total%20Factor%20Productivity%20(Annual)).
+
+Script:
 
 ### Current Employment Statistics (CES)
 The CES program produces detailed industry estimates of nonfarm employment, hours, and earnings of workers on payrolls...Each month, CES surveys approximately 119,000 businesses and government agencies, representing approximately 629,000 individual worksites.
@@ -52,7 +57,7 @@ The CES program produces detailed industry estimates of nonfarm employment, hour
 
 Readme, input (txt), script (ipynb), and output (csv) files: [Link](https://github.com/brenprie/BLS-data-prep/tree/main/Raw%20Data/Current%20Employment%20Statistics).
 
-Script for CES with prints showing variation in output file size by number of rows:
+Script with prints showing variation in output file size by number of rows:
 
 ![Screenshot 2024-11-29 at 15 17 53](https://github.com/user-attachments/assets/158eb5ab-8b51-4e03-8d2b-e841c65ab9a3)
 
@@ -63,6 +68,8 @@ The CPS provides a wealth of information on the nation’s labor force. Key CPS 
 2. With assistance of ChatGPT, create and run script to read and merge series and data files, calling on numerous external dictionaries, and save output to single csv file. In this final implementation, I explored error handling to greater degree.
 
 Readme, input (txt), script (ipynb), and output (csv) files: [Link](https://github.com/brenprie/BLS-data-prep/tree/main/Raw%20Data/Current%20Population%20Survey).
+
+Script:
 
 ## Resources
 * Series ID formats: https://www.bls.gov/help/hlpforma.htm
