@@ -44,29 +44,30 @@ Script:
 
 #### Major Sector and Major Industry Total Factor Productivity
 1. Download flat files (all series) from [https://download.bls.gov/pub/time.series/mp/](https://download.bls.gov/pub/time.series/mp/).
-2. With assistance of ChatGPT, create and run script to read and merge series and data files and save output to single csv file. Series titles are available in these files, but rather than split the series titles into elements, I split series_ids into elements and map to natural-English identifiers by reference to external dictionaries.  
+2. Create and run script to read and merge series and data files (after removing whitespace from headers and seriesid's columns) and save output to single csv file. Series titles are available in these files, but rather than split the series titles into its components, I split the series_ids and map to natural-English identifiers by calling on external dictionaries. In some cases dictionary codes begin with 0s that must be read to map correctly, so I force the script to read a specfied number of digits for each code.
 
 Readme, input (txt), script (ipynb), and output (csv) files: [Link](https://github.com/brenprie/BLS-data-prep/tree/main/Raw%20Data/Major%20Sector%20and%20Major%20Industry%20Total%20Factor%20Productivity%20(Annual)).
 
 Script:
+![Screenshot 2024-12-09 at 04 07 02](https://github.com/user-attachments/assets/20b25146-e0ef-4987-9457-fb1e453a818f)
+
 
 ### Current Employment Statistics (CES)
 The CES program produces detailed industry estimates of nonfarm employment, hours, and earnings of workers on payrolls...Each month, CES surveys approximately 119,000 businesses and government agencies, representing approximately 629,000 individual worksites.
 
 1. Download flat files (all series) from [https://download.bls.gov/pub/time.series/ce/](https://download.bls.gov/pub/time.series/ce/).
-2. With assistance of ChatGPT, create and run script to read and merge series and data files, calling on several external dictionaries. In this case there multiple data files, which vary in length but some are quite large in size. To reduce file size and processing time, I dropped observations prior to 2014 and I generated separate csv output files corresponding to each data input file; those who analyze the csv data can significnatly reduce file size further by selecting specific variates of interest and merging the reduced datasets into one csv file for analysis and visualization. This approach gives greatest opportunity to examine available series and investigate which offer more story-telling potential. Rather than create separate functions to process each data file, I employed a generalized function that allows for a far more compact script.
+2. Create and run script to read and merge series and data files, calling on several external dictionaries. In this case there multiple data files, which vary in length but some are quite large in size. To reduce file sizes and processing time, I dropped observations prior to 2014 (the CES data start in 2006) and I generated separate csv output files corresponding to each data input file; at the data analysis stage, file size can be reduced further by selecting specific variates of interest and merging the reduced datasets into one csv file for analysis and visualization. This approach allows one to examine the available metrics and investigate which offer more story-telling potential. Rather than create separate functions to process each data file, I employed a generalized function that allows for a far more compact script.
 
 Readme, input (txt), script (ipynb), and output (csv) files: [Link](https://github.com/brenprie/BLS-data-prep/tree/main/Raw%20Data/Current%20Employment%20Statistics).
 
 Script with prints showing variation in output file size by number of rows:
-
 ![Screenshot 2024-11-29 at 15 17 53](https://github.com/user-attachments/assets/158eb5ab-8b51-4e03-8d2b-e841c65ab9a3)
 
 ### Current Population Survey (CPS)
 The CPS provides a wealth of information on the nation’s labor force. Key CPS measures are the unemployment rate, labor force participation rate, and employment-population ratio. The CPS can also provide insights into the impact of working from home, as it now includes questions about telework, allowing researchers to track the percentage of people working remotely and identify trends related to the practice across different demographics and industries, particularly since the pandemic significantly increased remote work rates.
 
 1. Download flat files (all series) from [https://download.bls.gov/pub/time.series/le](https://download.bls.gov/pub/time.series/le).
-2. With assistance of ChatGPT, create and run script to read and merge series and data files, calling on numerous external dictionaries, and save output to single csv file. In this final implementation, I explored error handling to greater degree.
+2. Create and run script to read and merge series and data files, calling on numerous external dictionaries, and save output to single csv file. In this final implementation, I explored error handling to greater degree.
 
 Readme, input (txt), script (ipynb), and output (csv) files: [Link](https://github.com/brenprie/BLS-data-prep/tree/main/Raw%20Data/Current%20Population%20Survey).
 
