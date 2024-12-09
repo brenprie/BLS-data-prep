@@ -61,7 +61,8 @@ The CES program produces detailed industry estimates of nonfarm employment, hour
 Readme, input (txt), script (ipynb), and output (csv) files: [Link](https://github.com/brenprie/BLS-data-prep/tree/main/Raw%20Data/Current%20Employment%20Statistics).
 
 Script with prints showing variation in output file size by number of rows:
-![Screenshot 2024-11-29 at 15 17 53](https://github.com/user-attachments/assets/158eb5ab-8b51-4e03-8d2b-e841c65ab9a3)
+![Screenshot 2024-12-09 at 04 22 26](https://github.com/user-attachments/assets/71bbb328-1cbf-4ced-9d7c-63cc435ac937)
+
 
 ### Current Population Survey (CPS)
 The CPS provides a wealth of information on the nation’s labor force. Key CPS measures are the unemployment rate, labor force participation rate, and employment-population ratio. The CPS can also provide insights into the impact of working from home, as it now includes questions about telework, allowing researchers to track the percentage of people working remotely and identify trends related to the practice across different demographics and industries, particularly since the pandemic significantly increased remote work rates.
