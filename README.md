@@ -1,6 +1,6 @@
-# Project 1: BLS data prep, for future analysis -- Work From Home, Productivity and Work-Life Balance Impacts
+# Project 1: Work From Home, Productivity and Work-Life Balance Impacts -- STEP 1: Data Prep
 
-The Covid-19 pandemic pushed many to work from home (WFH), but as the health crisis has receded, a question that employers and employees alike have faced is whether to return to in-person work or whether to retain remote-work options. I seek to help inform this discussion by examining impacts of WFH using data available from the Bureau of Labor Statistics (BLS). As a first step, in the current project I prepare the data for subsequent analysis.
+The Covid-19 pandemic pushed many to work from home (WFH), but as the health crisis has receded, a question that employers and employees alike have faced is whether to return to in-person work or to maintain remote-work options. I seek to help inform this discussion by examining impacts of WFH using data available from the Bureau of Labor Statistics (BLS). In the current project I prepare the data. In a future project I will conduct the analysis.
 
 Potential questions to explore:
 * Who works from home? Differences across industries and occuptions pre-pandemic (2014 to 2018) vs post-pandemic (2019 to 2023). 
