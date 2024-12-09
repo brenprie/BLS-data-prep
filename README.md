@@ -39,7 +39,8 @@ The Office of Productivity and Technology (OPT) measures how efficiently the U.S
 Readme, input (txt), script (ipynb), and output (csv) files: [Link](https://github.com/brenprie/BLS-data-prep/tree/main/Raw%20Data/Major%20Sector%20Quarterly%20Labor%20Productivity%20and%20Costs).
 
 Script:
-![Screenshot 2024-12-09 at 03 31 52](https://github.com/user-attachments/assets/a602c8c0-034b-40d6-8ff1-781a583756bc)
+![Screenshot 2024-12-09 at 03 41 09](https://github.com/user-attachments/assets/9f86494d-44f3-47ec-a296-cce989b0e8cf)
+
 
 #### Major Sector and Major Industry Total Factor Productivity
 1. Download flat files (all series) from [https://download.bls.gov/pub/time.series/mp/](https://download.bls.gov/pub/time.series/mp/).
