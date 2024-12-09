@@ -1,16 +1,12 @@
-# BLS-data-prep
-Code to download various data series from the Bureau of Labor Statistics (BLS), to facilitate further analysis.
+# Project 1: BLS data prep, for future analysis -- Work From Home, Productivity and Work-Life Balance Impacts
 
-# Case Study: Work From Home - Economic Impacts in the US
+The Covid-19 pandemic pushed many to work from home (WFH), but as the health crisis has receded, a question that employers and employees alike have faced is whether to return to in-person work or whether to retain remote-work options. I seek to help inform this discussion by examining impacts of WFH using data available from the Bureau of Labor Statistics (BLS). As a first step, in the current project I prepare the data for subsequent analysis.
 
-The Covid-19 pandemic pushed many to work from home (WFH), but as the health crisis has receded, a question that employers and employees alike have faced is whether to return to in-person work or whether to retain remote-work options. In this project, we seek to help inform this discussion by examining impacts of WFH using data available from the Bureau of Labor Statistics (BLS).
-
-Potential questions we may be able to explore:
-* Who works from home? Differences across industries, occuptions, and possibly gender pre-pandemic (2014 to 2018) vs post-pandemic (2019 to 2023). 
-* How do changes in commute time pre- to post-pandemic translate to changes in time spent in other areas of one's life?
-* How does WFH impact hours worked? 
-* What is the productivity impact of WFH? How does the effect vary across industries and occupations? Are employees able to deliver similar/greater productivity while working fewer hours?
-* Is remote work associated with a decrease employers’ labor costs, office rental costs, and/or utility costs? 
+Potential questions to explore:
+* Who works from home? Differences across industries and occuptions pre-pandemic (2014 to 2018) vs post-pandemic (2019 to 2023). 
+* How do changes in commute time pre- vs. post-pandemic translate to time spent in other areas of one's life?
+* What is the productivity impact of WFH across different industries and occupations? Do producivity gains, if any, reflect similar output for less hours worked or greater output for similar hours worked?
+* What is the impact of remote work employers’ costs of labor, rent, and utilities? 
 
 ## Data: Series and Preparation
 
