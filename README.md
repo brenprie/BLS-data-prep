@@ -68,12 +68,14 @@ Script with prints showing variation in output file size by number of rows:
 The CPS provides a wealth of information on the nation’s labor force. Key CPS measures are the unemployment rate, labor force participation rate, and employment-population ratio. The CPS can also provide insights into the impact of working from home, as it now includes questions about telework, allowing researchers to track the percentage of people working remotely and identify trends related to the practice across different demographics and industries, particularly since the pandemic significantly increased remote work rates.
 
 1. Download flat files (all series) from [https://download.bls.gov/pub/time.series/le](https://download.bls.gov/pub/time.series/le).
-2. Create and run script to read and merge series and data files, calling on numerous external dictionaries, and save output to single csv file. In this final implementation, I explored error handling to greater degree.
+2. Create and run script to read and merge series and data files, calling on numerous external dictionaries, and save output to single csv file. In this final implementation, I explored error handling to a greater degree.
 
 Readme, input (txt), script (ipynb), and output (csv) files: [Link](https://github.com/brenprie/BLS-data-prep/tree/main/Raw%20Data/Current%20Population%20Survey).
 
 Script:
+[fetch_bls_le.pdf](https://github.com/user-attachments/files/18059148/fetch_bls_le.pdf)
+
 
 ## Resources
 * Series ID formats: https://www.bls.gov/help/hlpforma.htm
-* ATUS footnotes: https://www.bls.gov/tus/footnote.htm
+* ChatGPT for instruction on how to tackle tasks I've not encountered previously and for assistance debugging 
