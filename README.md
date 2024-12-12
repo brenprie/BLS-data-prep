@@ -82,6 +82,7 @@ Script:
 
 -- TO FOLLOW AT CONCLUSION OF COURSE -- 
 
-# Resources
+# RESOURCES
+
 * Series ID formats: https://www.bls.gov/help/hlpforma.htm
 * ChatGPT for instruction on how to tackle tasks I've not encountered previously and for assistance debugging 
