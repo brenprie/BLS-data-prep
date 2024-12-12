@@ -1,4 +1,6 @@
-# Project 1: Work From Home, Economic Impacts -- STEP 1: Data Prep
+# Project 1: Work From Home, Economic Impacts
+
+# STEP 1: DATA PREP
 
 The Covid-19 pandemic pushed many to work from home (WFH), but as the health crisis has receded, a question that employers and employees alike have faced is whether to return to in-person work or to maintain remote-work options. I seek to help inform this discussion by examining impacts of WFH using data available from the Bureau of Labor Statistics (BLS). In the current project I prepare the data. In a future project I will conduct the analysis.
 
@@ -32,7 +34,7 @@ Note about APIs: I attempted API queries of the BLS, but encountered two challen
 ### Productivity
 The Office of Productivity and Technology (OPT) measures how efficiently the U.S. converts inputs into the outputs of goods and services.  Measures of labor productivity compare the growth in output to the growth in hours worked and measures of total factor productivity (TFP), also known as multifactor productivity (MFP), compare growth in output to the growth in a combination of inputs that include labor, capital, energy, materials, and purchased services.
 
-#### Major Sector Quarterly Labor Productivity and Costs
+### Major Sector Quarterly Labor Productivity and Costs
 1. Download relevant flat files (all series) from [https://download.bls.gov/pub/time.series/pr/](https://download.bls.gov/pub/time.series/pr/).
 2. Create and run script to read and merge series and data files (after removing whitespace from headers and seriesid's columns) and save output to a single csv file. Series titles are not available in this set of series and data files; I obtained natural-English series identifiers by employing dictionaries that translate elements of the seriesid codes. In this implementation I chose to define the dictionaries in-script; in implementations below I have scripts read external dictionary files, which is a more efficient, robust, and flexible solution.  
 
@@ -42,7 +44,7 @@ Script:
 ![Screenshot 2024-12-09 at 03 41 09](https://github.com/user-attachments/assets/9f86494d-44f3-47ec-a296-cce989b0e8cf)
 
 
-#### Major Sector and Major Industry Total Factor Productivity
+### Major Sector and Major Industry Total Factor Productivity
 1. Download flat files (all series) from [https://download.bls.gov/pub/time.series/mp/](https://download.bls.gov/pub/time.series/mp/).
 2. Create and run script to read and merge series and data files (after removing whitespace from headers and seriesid's columns) and save output to single csv file. Series titles are available in these files, but rather than split the series titles into its components, I split the series_ids and map to natural-English identifiers by calling on external dictionaries. In some cases dictionary codes begin with 0s that must be read to map correctly, so I force the script to read a specfied number of digits for each code.
 
@@ -76,7 +78,10 @@ Script:
 
 ![Screenshot 2024-12-09 at 05 07 35](https://github.com/user-attachments/assets/c4072c56-942f-4b7c-82ab-55e4a1155b90)
 
+# STEP 2: ANALYSES
 
-## Resources
+-- TO FOLLOW AT CONCLUSION OF COURSE -- 
+
+# Resources
 * Series ID formats: https://www.bls.gov/help/hlpforma.htm
 * ChatGPT for instruction on how to tackle tasks I've not encountered previously and for assistance debugging 
